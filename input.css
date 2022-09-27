@@ -26,3 +26,10 @@ body {
 .btn {
   @apply rounded py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
+
+@media (min-width: 768px) {
+  .change {
+    width: 230px;
+  }
+}
+
